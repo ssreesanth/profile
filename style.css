@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(247, 244, 239);
+  font-family: Quantico;
+  font-size: larger;
+  line-height: normal;
+}
+
+h1{
+  font-size: 33px;
+  color: rgb(72, 121, 122);
+}
+
+img{
+  width: 150px;
+  border: 1px  black;
+  border-radius: 90px;
+  box-shadow: 2px 5px 10px rgb(94, 118, 141);
+}
+
+h2{
+  font-size: 25px;
+  color: rgb(63, 170, 173);
+  font-weight: 800;
+}
+p{
+  font-weight: normal;
+  color: rgb(79, 92, 93);
+
+}
+
+a{
+  text-decoration: none;
+  color: rgb(29, 83, 85);
+}
+
+
+.container{
+  margin: 5% 15% 10% 15%;
+  align-content: center;
+}
+
+.card{
+  text-align: center;
+  box-shadow: 2px 5px 10px rgb(94, 118, 141);
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: rgb(237, 234, 231);
+}
+
+button{
+  font-family: Quantico;
+  font-size: medium;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: rgb(196, 242, 227);
+  padding: 10px;
+}
+
+button:hover{
+  background-color:rgb(72, 121, 122);
+  transition: 0.3s;
+  transform: scale(1.1)
+
+}
+
+.list{
+  padding: 0;
+}
+
+.list li{
+  color: rgb(63, 170, 173);
+  list-style-type: none;
+  display: inline-block;
+  align-content: center;
+  margin: 0 10px;
+
+}
+
+li:hover{
+  transition: 0.4s;
+  transform: scale(1.5)
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 840px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+
+  }
+}
