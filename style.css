@@ -60,7 +60,8 @@ button{
 button:hover{
   background-color:rgb(72, 121, 122);
   transition: 0.3s;
-  transform: scale(1.1)
+  transform: scale(1.1);
+  color: white;
 
 }
 
